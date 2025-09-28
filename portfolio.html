@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Vishwajit Kadam</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-gray-100 antialiased">
+    <!-- Header -->
+    <header class="bg-gray-900/80 backdrop-blur-md shadow-md sticky top-0 z-50">
+      <div
+        class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <h1
+          class="text-2xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent"
+        >
+          Vishwajit Kadam
+        </h1>
+        <nav class="flex items-center gap-6 text-sm font-medium">
+          <a href="#projects" class="hover:text-indigo-400 transition"
+            >Projects</a
+          >
+          <a href="#experience" class="hover:text-green-400 transition"
+            >Experience</a
+          >
+          <a href="#education" class="hover:text-blue-400 transition"
+            >Education</a
+          >
+          <a
+            href="#contact"
+            class="px-4 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full shadow hover:scale-105 active:scale-95 transition"
+            >Contact</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="max-w-6xl mx-auto px-6 py-12 space-y-16">
+      <!-- Intro -->
+      <section
+        class="bg-gray-800 rounded-3xl shadow-lg border border-gray-700 p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 hover:shadow-gray-700/50 transition"
+      >
+        <img
+          src="assets/img/vish.png"
+          alt="Vishwajit Kadam"
+          class="w-36 h-36 rounded-full object-cover ring-2 ring-indigo-400 hover:ring-indigo-600 transition"
+        />
+
+        <div>
+          <h2 class="text-3xl font-bold text-gray-100">
+            Hi, I'm Vishwajit Kadam
+          </h2>
+          <p class="text-gray-300 mt-3 leading-relaxed">
+            A motivated
+            <span class="font-semibold text-indigo-400"
+              >Frontend Developer Intern</span
+            >
+            with hands-on experience at
+            <span class="font-semibold text-purple-400"
+              >Sysinsight Solution</span
+            >. Skilled in building responsive web pages using
+            <span class="font-semibold"
+              >HTML, CSS, JavaScript, React, and Tailwind CSS</span
+            >. Eager to learn and grow as a professional developer.
+          </p>
+
+          <div class="mt-6 flex gap-4">
+            <a
+              href="#contact"
+              class="px-5 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full shadow hover:scale-105 active:scale-95 transition"
+              >Get in touch</a
+            >
+            <a
+              href="#projects"
+              class="px-5 py-2.5 border border-gray-600 rounded-full hover:bg-gray-700 active:scale-95 transition"
+              >See projects</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Cards Section -->
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Education -->
+        <div
+          id="education"
+          class="group bg-gray-800 rounded-2xl p-8 shadow-md border border-gray-700 hover:shadow-gray-700/50 transition duration-300 hover:border-blue-400"
+        >
+          <h3
+            class="text-xl font-semibold flex items-center gap-2 mb-4 text-gray-100"
+          >
+            🎓 Education
+          </h3>
+          <div class="space-y-3 text-gray-300">
+            <div>
+              <p class="font-medium">BSc : Bachelor of Science</p>
+              <p class="text-sm text-gray-400">
+                Dr. Babasaheb Ambedkar Marathwada University • 2018 – 2022
+              </p>
+
+              <p class="font-medium mt-2">MCA : Master of Computer Science</p>
+              <p class="text-sm text-gray-400">
+                Swami Ramanand Teerth Marathwada University • 2023 – 2024
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience -->
+        <div
+          id="experience"
+          class="group bg-gray-800 rounded-2xl p-8 shadow-md border border-gray-700 hover:shadow-gray-700/50 transition duration-300 hover:border-green-400"
+        >
+          <h3
+            class="text-xl font-semibold flex items-center gap-2 mb-4 text-gray-100"
+          >
+            💼 Experience
+          </h3>
+          <div class="space-y-3 text-gray-300">
+            <div>
+              <p class="font-medium">
+                Frontend Developer Intern :
+                <a
+                  href="https://sysinsightsolutions.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-indigo-400 hover:underline"
+                >
+                  Sysinsight Solution
+                </a>
+              </p>
+              <p class="text-sm text-gray-400">Jun 2023 – Present</p>
+            </div>
+
+            <div>
+              <ul class="list-disc list-inside text-sm text-gray-400 mt-2">
+                <li>
+                  Built responsive web pages using HTML, CSS, JavaScript, and
+                  Tailwind CSS.
+                </li>
+                <li>
+                  Assisted in developing React components for the internal
+                  dashboard.
+                </li>
+                <li>
+                  Learned coding best practices, debugging, and team
+                  collaboration.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects -->
+        <div
+          id="projects"
+          class="md:col-span-2 group bg-gray-800 rounded-2xl p-8 shadow-md border border-gray-700 hover:shadow-gray-700/50 transition duration-300 hover:border-purple-400"
+        >
+          <h3
+            class="text-xl font-semibold flex items-center gap-2 mb-6 text-gray-100"
+          >
+            🔧 Projects
+          </h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div
+              class="p-5 border border-gray-700 rounded-xl hover:bg-gray-700 transition"
+            >
+              <p class="font-medium">Digimark Website</p>
+              <p class="text-sm text-gray-400">Built with React & Tailwind</p>
+            </div>
+            <div
+              class="p-5 border border-gray-700 rounded-xl hover:bg-gray-700 transition"
+            >
+              <p class="font-medium text-gray-100">Dashboard Project</p>
+              <p class="text-sm text-gray-400 mt-1">
+                Built using
+                <span class="text-indigo-400 font-semibold">React</span>,
+                <span class="text-indigo-400 font-semibold">Tailwind CSS</span>,
+                and <span class="text-indigo-400 font-semibold">API</span> for
+                Login & Register functionality.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div
+          id="contact"
+          class="group bg-gray-800 rounded-2xl p-8 shadow-md border border-gray-700 hover:shadow-gray-700/50 transition duration-300 hover:border-yellow-400"
+        >
+          <h3
+            class="text-xl font-semibold flex items-center gap-2 mb-4 text-gray-100"
+          >
+            ✉️ Contact
+          </h3>
+          <p class="text-gray-300 mb-4">Let’s collaborate! Reach me at:</p>
+          <div class="space-y-2">
+            <!-- Email -->
+           <div class="flex items-center gap-2 text-sm font-medium text-gray-100">
+  <!-- Email icon -->
+  <svg
+    class="w-4 h-4 text-yellow-400"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M1.5 4.5h21v15h-21v-15zm1.5 1.5v12h18v-12h-18zm9 5l9-6h-18l9 6z"
+    />
+  </svg>
+  vishwajitkadam001@gmail.com
+</div>
+
+
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/vishwajit-kadam7878"
+              target="_blank"
+              rel="noreferrer"
+              class="flex items-center gap-2 text-sm font-medium hover:text-indigo-400 transition"
+            >
+              <!-- LinkedIn icon -->
+              <svg
+                class="w-4 h-4 text-blue-500"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.24 8.5h4.5V24h-4.5V8.5zM9.5 8.5h4.32v2.07h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.44 2.77 5.44 6.55V24h-4.5v-7.24c0-1.72-.03-3.94-2.4-3.94-2.4 0-2.77 1.88-2.77 3.81V24H9.5V8.5z"
+                />
+              </svg>
+              vishwajit-kadam7878
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer
+        class="text-center text-sm text-gray-400 pt-10 border-t border-gray-700"
+      >
+        © <span id="year"></span> Vishwajit Kadam • Crafted with ❤️
+      </footer>
+    </main>
+
+    <script>
+      // Set current year automatically
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
